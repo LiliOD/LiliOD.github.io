@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS - Drum Kit</title>
+        <link rel="stylesheet" href="/portfolio/style.css">
+    </head>
+    <body>
+        <!-------------Vamos a hacer una página tipo concierto en donde habrá varios botones que al presionarlos generen algún sonido-->
+
+        <div class="keys">
+            <div class="key" data-key="65">
+                <kbd>A</kbd>
+                <span class="sound">clap</span>
+            </div>
+            <div class="key" data-key="83">
+                <kbd>S</kbd>
+                <span class="sound">hithat</span>
+            </div>
+            <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span class="sound">kick</span>
+            </div>
+            <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span class="sound">openhat</span>
+            </div>
+            <div class="key" data-key="71">
+                <kbd>G</kbd>
+                <span class="sound">boom</span>
+            </div>
+            <div class="key" data-key="72">
+                <kbd>H</kbd>
+                <span class="sound">ride</span>
+            </div>
+            <div class="key" data-key="74">
+                <kbd>J</kbd>
+                <span class="sound">snare</span>
+            </div>
+            <div class="key" data-key="75">
+                <kbd>K</kbd>
+                <span class="sound">tom</span>
+            </div>
+            <div class="key" data-key="76">
+                <kbd>L</kbd>
+                <span class="sound">tink</span>
+            </div>
+        </div>
+
+        <audio data-key="65" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+        <audio data-key="83" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+        <audio data-key="68" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+        <audio data-key="70" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+        <audio data-key="71" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+        <audio data-key="72" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+        <audio data-key="74" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+        <audio data-key="75" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+        <audio data-key="76" src="/portfolio/audio/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+        <script src="/portfolio/intro.js"></script>
+    </body>
+   
+</html>
